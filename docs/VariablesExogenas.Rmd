@@ -116,7 +116,7 @@ Por lo tanto, el modelo de ajuste parcial lleva a una regresión lineal de $x_t$
 
 #
 
-El coeficiente de $x_{t-1}$ es el parámetro de ajuste, y estimaciones de $\beta^0$ se pueden obtener de los estimadores de MCO de $\beta$ y $\lambda$.
+El coeficiente de $x_{t-1}$ es el parámetro de ajuste, y estimaciones de $\beta^0$ se pueden obtener de los estimadores de MCO de $\beta$ y $\lambda$. Cabe resaltar que el valor de $\lambda$ indica la velocidad de ajuste, mientras mas cercano sea a 1 la velocidad de ajuste es mas lenta
 
 Noten que el modelo no tiene sentido si $\lambda<0$ ya que esto implicaría una sobre-reacción, o si $\lambda \geq 1$ ya que esto implicaría alejarse cada vez más. Además, cuando $\lambda$ es muy cercana a 1, la velocidad de ajuste puede ser improbablemente lenta.
  
